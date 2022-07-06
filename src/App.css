@@ -33,8 +33,12 @@
 }
 
 ul {
-  list-style-type: none;
+  /* list-style-type: none; */
   padding: 0;
+}
+
+.appNotes li {
+  margin-left: 20px;
 }
 
 .menu ul {
@@ -69,4 +73,25 @@ ul {
 }
 .mainPage {
   padding-left: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  background: #efebeb;
+}
+.navBtn {
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.linkBtn {
+  background: #5276ab;
+  color: white;
+  border-radius: 3px;
+  padding: 10px;
+  text-decoration: none;
+}
+footer {
+  padding: 10px;
+  margin-top: 20px;
+  background: #efebeb;
 }
